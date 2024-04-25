@@ -496,8 +496,7 @@ class postgres_sql_generator extends sql_generator {
      * @return array An array of database specific reserved words
      */
     public static function getReservedWords() {
-        // This file contains the reserved words for PostgreSQL databases
-                // This file contains the reserved words for PostgreSQL databases
+        // This file contains the reserved words for PostgreSQL database
         // http://www.postgresql.org/docs/current/static/sql-keywords-appendix.html
         $reserved_words = array (
             'all', 'analyse', 'analyze', 'and', 'any', 'array', 'as', 'asc',
